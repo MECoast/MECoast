@@ -1,3 +1,3 @@
 - 👋 Hi, I’m @MECoast
-- 💞️ I’m looking to collaborate on the release and continued develpment of MidEast Coast for Open Rails
+- 💞️ I’m looking to collaborate on the release and continued development of MidEast Coast for Open Rails
 - 📫 
