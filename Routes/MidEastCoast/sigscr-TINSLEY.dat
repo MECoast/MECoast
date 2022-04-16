@@ -1,0 +1,96 @@
+///////////////////////////////////////////////////////////////////////////////
+// Signal Type Logic Scripts
+//
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT BR_E_1Aspect&SubsidiaryTY
+// BR(E) 1Aspect&Subsidiary Signal
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR ||				// Block ahead not clear?
+		!route_set())							// Switch not set as per link?
+	{
+		state = SIGASP_STOP;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+      {
+		state = SIGASP_CLEAR_2;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+
+SCRIPT Tinsley_Yard_Hump_Signal_TY259
+// Tinsley Yard Hump Signal TY259
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR ||				// Block ahead not clear?
+		!route_set())							// Switch not set as per link?
+	{
+		state = SIGASP_STOP;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+      {
+		state = SIGASP_CLEAR_2;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+
+SCRIPT BR_E_2AspectTY
+
+// BR(E) 2 Aspect Colour Light
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR ||				// Block ahead not clear?
+		!route_set())							// Switch not set as per link?
+	{
+		state = SIGASP_STOP;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+      {
+		state = SIGASP_CLEAR_2;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+
+///////////////////////////////////////////////////////////////////////////////
+// End of File

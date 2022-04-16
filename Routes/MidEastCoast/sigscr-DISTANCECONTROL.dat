@@ -1,0 +1,103 @@
+///////////////////////////////////////////////////////////////////////////////
+//DISTANCE CONTROL SIGNALS
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT BRSemDistControl
+
+// Shunting Signal
+
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	next_sig_lr ();
+
+	if (	next_sig_lr (SIGFN_SHUNTING) !=# SIGASP_CLEAR_2 || // Next Intermediate Control Signal not clear
+		next_sig_lr (SIGFN_NORMAL) !=# SIGASP_CLEAR_2) 
+	{
+		state = SIGASP_APPROACH_2;
+	}
+	else
+	{
+		state = SIGASP_CLEAR_2;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+
+
+///////////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT BRSemHDCombControl
+
+// Shunting Signal-NOT CURRENTLY USED FEB 2013
+
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	next_sig_lr ();
+	extern float	this_sig_lr ();
+
+
+	if (	!route_set() ||						// Switch not set as per link
+		this_sig_lr (SIGFN_NORMAL) !=# SIGASP_CLEAR_2 || // Home on this signal at danger
+		next_sig_lr (SIGFN_SHUNTING) !=# SIGASP_CLEAR_2) // Next Home Signal not clear
+	{
+		state = SIGASP_APPROACH_2;
+	}
+	else
+	{
+		state = SIGASP_CLEAR_2;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+
+
+///////////////////////////////////////////////////////////////////////////////
+//DISTANCE BLOCK CONTROL SIGNAL - TYPE SHUNTING
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT DISTANCECONTROL
+
+// Block State Reference Signal - ******Place before loop exit signal******
+
+	extern float	state;
+	extern float	next_sig_lr ();
+
+	if ( 	next_sig_lr (SIGFN_NORMAL) !=# SIGASP_CLEAR_2)// loop exit signal not clear?
+	{
+		state = SIGASP_STOP;
+	}
+	else
+	{
+		state = SIGASP_CLEAR_2;
+	}
+
+
+///////////////////////////////////////////////////////////////////////////////
+//INTERMEDIATE BLOCK CONTROL SIGNAL - TYPE SHUNTING
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT INTERMEDIATECONTROL
+
+// Block State Reference Signal - *****Place after loop entry signal******
+
+	extern float	block_state ();
+	extern float	state;
+	extern float	next_sig_lr ();
+
+	if (	block_state() !=# BLOCK_CLEAR )	// Block ahead not clear?
+	{
+		state = SIGASP_STOP;
+	}
+	else if ( next_sig_lr (SIGFN_SHUNTING) !=# SIGASP_CLEAR_2)// Distance Control not clear?
+	{
+		state = SIGASP_STOP;
+	}
+	else
+	{
+		state = SIGASP_CLEAR_2;
+	}
+
+
+// End of File

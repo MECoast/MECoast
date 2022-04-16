@@ -1,0 +1,122 @@
+///////////////////////////////////////////////////////////////////////////////
+// UK Route Indicator Signal Type Logic Scripts - 
+//		FOR EXTRA 'Theatre BoxSquare' signals
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Theatre-SQ-11
+
+// Theatre SQ '11' signal head
+
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	draw_state;
+
+// If required, show the 'stop' indication.				(operates on 'AUTO' basis
+	if (next_sig_lr (SIGFN_NORMAL) ==# SIGASP_STOP ||		// Main sig on STOP?
+		!route_set())							// Switch not set as per link?
+	{
+		draw_state = 0;
+	}
+	else
+	{	draw_state = 1;
+	}
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Theatre-SQ-F1
+
+// Theatre SQ 'F1' signal head
+
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	draw_state;
+
+// If required, show the 'stop' indication.				(operates on 'AUTO' basis
+	if (next_sig_lr (SIGFN_NORMAL) ==# SIGASP_STOP ||		// Main sig on STOP?
+		!route_set())							// Switch not set as per link?
+	{
+		draw_state = 0;
+	}
+	else
+	{	draw_state = 1;
+	}
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Theatre-SQ-F2
+
+// Theatre SQ 'F2' signal head
+
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	draw_state;
+
+// If required, show the 'stop' indication.				(operates on 'AUTO' basis
+	if (next_sig_lr (SIGFN_NORMAL) ==# SIGASP_STOP ||		// Main sig on STOP?
+		!route_set())							// Switch not set as per link?
+	{
+		draw_state = 0;
+	}
+	else
+	{	draw_state = 1;
+	}
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Theatre-SQ-S1
+
+// Theatre SQ 'S1' signal head
+
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	draw_state;
+
+// If required, show the 'stop' indication.				(operates on 'AUTO' basis
+	if (next_sig_lr (SIGFN_NORMAL) ==# SIGASP_STOP ||		// Main sig on STOP?
+		!route_set())							// Switch not set as per link?
+	{
+		draw_state = 0;
+	}
+	else
+	{	draw_state = 1;
+	}
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Theatre-SQ-S2
+
+// Theatre SQ 'S2' signal head
+
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	draw_state;
+
+// If required, show the 'stop' indication.				(operates on 'AUTO' basis
+	if (next_sig_lr (SIGFN_NORMAL) ==# SIGASP_STOP ||		// Main sig on STOP?
+		!route_set())							// Switch not set as per link?
+	{
+		draw_state = 0;
+	}
+	else
+	{	draw_state = 1;
+	}
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Theatre-SQ-SG
+
+// Theatre SQ 'SG' signal head
+
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	draw_state;
+
+// If required, show the 'stop' indication.				(operates on 'AUTO' basis
+	if (next_sig_lr (SIGFN_NORMAL) ==# SIGASP_STOP ||		// Main sig on STOP?
+		!route_set())							// Switch not set as per link?
+	{
+		draw_state = 0;
+	}
+	else
+	{	draw_state = 1;
+	}
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+// End of File
