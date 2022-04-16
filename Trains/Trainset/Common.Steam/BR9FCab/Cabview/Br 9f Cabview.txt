@@ -1,0 +1,33 @@
+BR 9f Cabview Version 1      4 Jan 2008
+
+Clive Heard (casperdog)
+
+
+A BR9f cabview which can be used to relace what ever cabview you are using. Left hand drive.
+
+To install the cab: Unzip the file (I usualy set the download location as the desktop). 
+
+Open the downloaded folder and copy and paste the cabview folder into the loco of your choice. This will over-write the old cabview.
+
+NOTE: If you want to keep the original cabview, rename the folder cabvieworiginal or similar before copying the new cabview.
+ 
+
+Open the eng file with wordpad or similar.
+ 
+Find the CABVIEW entry. Change this to BR9f.
+
+The reverser looks best with the cut off entry
+
+           )
+ Cutoff ( -0.55 0.75 0.05 0 
+ NumNotches( 0
+ 
+ 
+ )
+ )
+
+This isn't necessary to make it work but the handle movement is smoother.
+
+This is my first cab so isn't as good as some on this site (the excellent GWR photo cabs) but as I live abroad my only source is the internet and it doesn't always give what I want. If you don't like it chuck it in the recycle bin.
+
+Anyone is welcome to use the cab or parts without asking my permission.
