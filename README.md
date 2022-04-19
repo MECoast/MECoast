@@ -18,7 +18,7 @@ This content is compatible with Open Rails v1.4 (and not with MSTS). The content
 
 1. Quick: Download the ZIP and unpack it.
 
-![Quick: Download the ZIP and unpack it.](GitHub_assets/Download_ZIP.jpg)
+![Quick: Download the ZIP and unpack it.](GitHub_assets/download_ZIP.jpg)
 
 or
 
