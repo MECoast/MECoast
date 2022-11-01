@@ -1,5 +1,5 @@
 
-23
+25
 
 Comment(Skegness 90ft)
 Turntable(
@@ -254,5 +254,29 @@ TrackShapeIndex ( 38793 )
 Animation ( "TRACKPIECE" )
 Diameter ( 19.8 )
 )
+Comment(Cromer 65ft)
+Turntable(
+WFile ( "w-006005+014997.w" )
+UiD ( 185 )
+XOffset ( 0 )
+YOffset ( 0 )
+ZOffset ( 13.5 )
+TrackShapeIndex ( 38793 )
+Animation ( "TRACKPIECE" )
+Diameter ( 19.8 )
+)
+Comment(Stamford East 65ft)
+Turntable(
+WFile ( "w-006073+014983.w" )
+UiD ( 77 )
+XOffset ( 0 )
+YOffset ( 0 )
+ZOffset ( 13.5 )
+TrackShapeIndex ( 38793 )
+Animation ( "TRACKPIECE" )
+Diameter ( 19.8 )
+)
+
+
 
 
