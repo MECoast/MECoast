@@ -1,0 +1,43 @@
+SIMISA@@@@@@@@@@JINX0D0t______
+
+Train (
+	TrainCfg ( OR-69555-N2-BLANK-7xGresleySub
+		Serial ( 7 )
+		MaxVelocity ( 29.01 0.35 )
+		NextWagonUID ( 8 )
+		Durability ( 1.00000 )
+		
+		Engine (
+			EngineData ( OR-69555T-BLANK OR-69555-N2 )
+			UiD ( 0 )Flip()
+			)
+		Wagon (
+			WagonData ( BrakeThirdRear-T OR-GresleySub-CR  )
+			UiD ( 1 )Flip()
+			)
+		Wagon (
+			WagonData ( CompLavatory OR-GresleySub-CR  )
+			UiD ( 2 )Flip()
+			)
+		Wagon (
+			WagonData ( First OR-GresleySub-CR  )
+			UiD ( 3 )
+			)
+		Wagon (
+			WagonData ( Third OR-GresleySub-CR  )
+			UiD ( 4 )
+			)
+		Wagon (
+			WagonData ( Third OR-GresleySub-CR  )
+			UiD ( 5 )
+			)
+		Wagon (
+			WagonData ( CompLavatory OR-GresleySub-CR  )
+			UiD ( 6 )
+			)
+		Wagon (
+			WagonData ( BrakeThirdRear-T OR-GresleySub-CR  )
+			UiD ( 7 )
+			)
+		)
+)

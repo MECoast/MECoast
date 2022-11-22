@@ -1,0 +1,39 @@
+SIMISA@@@@@@@@@@JINX0D0t______
+
+Train (
+	TrainCfg ( OR-69576-N2-FPMG-6xGresleySubArt
+		Serial ( 7 )
+		MaxVelocity ( 29.01 0.35 )
+		NextWagonUID ( 9 )
+		Durability ( 1.00000 )
+		
+		Engine (
+			EngineData ( OR-69576T-FPMG OR-69576-N2 )
+			UiD ( 0 )
+			)
+		Wagon (
+			WagonData ( ArtBrakeFront-T OR-GresleySub-CR )
+			UiD ( 1 )
+			)
+		Wagon (
+			WagonData ( ArtCLRear OR-GresleySub-CR )
+			UiD ( 2 )
+			)
+		Wagon (
+			WagonData ( ArtThirdFront OR-GresleySub-CR )
+			UiD ( 3 )
+			)
+		Wagon (
+			WagonData ( ArtThirdRear OR-GresleySub-CR  )
+			UiD ( 4 )
+			)
+		Wagon (
+			WagonData ( ArtThirdFront OR-GresleySub-CR  )
+			UiD ( 7 )
+			)
+		Wagon (
+			WagonData ( ArtBrakeRear-T OR-GresleySub-CR  )
+			UiD ( 8 )
+			)
+		)
+)
