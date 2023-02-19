@@ -12,7 +12,7 @@ SCRIPT UKGroundSig
 	extern float	enabled;
 	float			next_state;
 
-if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn()&&route_set() )
+if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn_Restricted()&&route_set() )
 {
 state = SIGASP_STOP_AND_PROCEED;
 }
@@ -88,7 +88,7 @@ SCRIPT BR_M_Ground_Dolly
 	extern float	draw_state;
 	extern float	enabled;
 
-if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn()&&route_set() )
+if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn_Restricted()&&route_set() )
 {
 state = SIGASP_STOP_AND_PROCEED;
 }
@@ -114,7 +114,7 @@ SCRIPT BRSemHome
 	extern float	enabled;
 
 
-if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn()&&route_set() )
+if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn_Restricted()&&route_set() )
 {
 state = SIGASP_STOP_AND_PROCEED;
 }
@@ -270,19 +270,20 @@ SCRIPT BRSemHomeBranch
 	extern float	draw_state;
 	extern float	enabled;
 
-	if (!enabled ||								// Not enabled/cleared to show natural state?
-		block_state() !=# BLOCK_CLEAR ||		// Block ahead not clear?
-		!route_set())							// Switch not set as per link?
-	{
-		state = SIGASP_STOP;
-	}
-	else
-	{
-		state = SIGASP_CLEAR_1;
-	}
+if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn_Restricted()&&route_set() )
+{
+state = SIGASP_STOP_AND_PROCEED;
+}
+else if(block_state()!=#BLOCK_CLEAR||!enabled||!route_set())
+{
+state = SIGASP_STOP;
+}
+else 
+{
+state = SIGASP_CLEAR_2;
+}
 
-// Get draw state
-	draw_state = def_draw_state (state);
+draw_state = def_draw_state (state);
 
 ///////////////////////////////////////////////////////////////////////////////
 SCRIPT UK3Light
@@ -298,7 +299,7 @@ SCRIPT UK3Light
 	extern float	enabled;
 	float			next_state;
 
-if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn()&&route_set() )
+if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn_Restricted()&&route_set() )
 {
 state = SIGASP_STOP_AND_PROCEED;
 }
@@ -395,7 +396,7 @@ SCRIPT UK3LightRR
 	extern float	enabled;
 	float			next_state;
 
-if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn()&&route_set() )
+if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn_Restricted()&&route_set() )
 {
 state = SIGASP_STOP_AND_PROCEED;
 }
@@ -457,7 +458,7 @@ SCRIPT UK3LightRL
 	extern float	enabled;
 	float			next_state;
 
-if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn()&&route_set() )
+if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn_Restricted()&&route_set() )
 {
 state = SIGASP_STOP_AND_PROCEED;
 }
@@ -518,7 +519,7 @@ SCRIPT UK4Light
 	extern float	enabled;
 	float			next_state;
 
-if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn()&&route_set() )
+if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn_Restricted()&&route_set() )
 {
 state = SIGASP_STOP_AND_PROCEED;
 }
@@ -620,7 +621,7 @@ SCRIPT UK4LightRR
 	extern float	enabled;
 	float			next_state;
 
-if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn()&&route_set() )
+if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn_Restricted()&&route_set() )
 {
 state = SIGASP_STOP_AND_PROCEED;
 }
@@ -686,7 +687,7 @@ SCRIPT UK4LightRL
 	extern float	enabled;
 	float			next_state;
 
-if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn()&&route_set() )
+if(block_state()==#BLOCK_OCCUPIED&&TrainHasCallOn_Restricted()&&route_set() )
 {
 state = SIGASP_STOP_AND_PROCEED;
 }
