@@ -1,0 +1,47 @@
+SIMISA@@@@@@@@@@JINX0D0t______
+
+Train (
+	TrainCfg ( OR-69508-N2-KXHN-8xGresleySubArt
+		Serial ( 7 )
+		MaxVelocity ( 30 0.35 )Comment(67mph)
+		NextWagonUID ( 9 )
+		Durability ( 1.00000 )
+		
+		Engine (
+			EngineData ( OR-69508T-HNKX OR-69508-N2 )
+			UiD ( 0 )Flip()
+			)
+		Wagon (
+			WagonData ( ArtBrakeFront-T OR-GresleySub-CR )
+			UiD ( 1 )
+			)
+		Wagon (
+			WagonData ( ArtCLRear OR-GresleySub-CR )
+			UiD ( 2 )
+			)
+		Wagon (
+			WagonData ( ArtThirdFront OR-GresleySub-CR )
+			UiD ( 3 )
+			)
+		Wagon (
+			WagonData ( ArtThirdRear OR-GresleySub-CR  )
+			UiD ( 4 )
+			)
+		Wagon (
+			WagonData ( ArtThirdFront OR-GresleySub-CR  )
+			UiD ( 5 )
+			)
+		Wagon (
+			WagonData ( ArtThirdRear OR-GresleySub-CR  )
+			UiD ( 6 )
+			)
+		Wagon (
+			WagonData ( ArtCLFront OR-GresleySub-CR  )
+			UiD ( 7 )
+			)
+		Wagon (
+			WagonData ( ArtBrakeRear-T OR-GresleySub-CR  )
+			UiD ( 8 )
+			)
+		)
+)

@@ -1,0 +1,15 @@
+SIMISA@@@@@@@@@@JINX0D0t______
+
+Train (
+	TrainCfg ( OR-69555-N2-BLANK-LE
+		Serial ( 7 )
+		MaxVelocity ( 30 0.35 )Comment(67mph)
+		NextWagonUID ( 1 )
+		Durability ( 1.00000 )
+		
+		Engine (
+			EngineData ( OR-69555T-BLANK OR-69555-N2 )
+			UiD ( 0 )
+			)
+		)
+)
