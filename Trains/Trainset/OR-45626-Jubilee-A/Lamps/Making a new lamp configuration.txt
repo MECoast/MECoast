@@ -1,0 +1,10 @@
+The four lamps are configurable for each loco in the pack and the tender. Just use the .Ace files from folder Lamps_Dead to remove a lamp and the .Ace files from Lamps_Live for one to appear.
+
+
+
+
+
+
+
+
+

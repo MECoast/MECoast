@@ -1,0 +1,102 @@
+Thank you for downlaoding this coach pack.
+
+These coaches can be found in your trainset folder.
+
+They all have Standard Chain couplers.
+
+This pack contains the following coaches:
+
+Gresley 51ft Suburban Coaches in Teak
+
+7 Compartment all 1st					(Gresley_51ft_1st_Teak)
+8 Compartment all 3rd					(Gresley_51ft_3rd_Teak)
+4 Compartment Brake 3rd Front				(Gresley_51ft_BT_Front_Teak)
+4 Compartment Brake 3rd Rear				(Gresley_51ft_BT_Rear_Teak)
+7 Compartment Composite Corridor Lavatory		(Gresley_51ft_CL_Teak)
+Full Brake							(Gresley_51ft_FB_Teak)
+
+Gresley 51ft Suburban Articulated Twin Coaches in Teak
+7 Compartment all 1st Front				(Gresley_51ft_art_1st_Front_T)
+7 Compartment all 1st Rear				(Gresley_51ft_art_1st_Rear_T)
+8 Compartment all 3rd Front				(Gresley_51ft_art_3rd_Front_T)
+8 Compartment all 3rd Rear				(Gresley_51ft_art_3rd_Rear_T)
+4 Compartment Brake 3rd Front				(Gresley_51ft_art_BT_Front_T)
+4 Compartment Brake 3rd Rear				(Gresley_51ft_art_BT_Rear_T)
+7 Compartment Composite Lavatory			(Gresley_51ft_Art_CL_Front_T)
+7 Compartment Composite Lavatory			(Gresley_51ft_Art_CL_Rear_T)
+
+Gresley 51ft Suburban Coaches in Crimson
+
+7 Compartment all 1st					(Gresley_51ft_1st_C)
+8 Compartment all 3rd					(Gresley_51ft_3rd_C)
+4 Compartment Brake 3rd Front				(Gresley_51ft_BT_Front_C)
+4 Compartment Brake 3rd Rear				(Gresley_51ft_BT_Rear_C)
+7 Compartment Composite Corridor Lavatory		(Gresley_51ft_CL_C)
+Full Brake							(Gresley_51ft_FB_C)
+
+Gresley 51ft Suburban Articulated Twin Coaches in Crimson
+7 Compartment all 1st Front				(Gresley_51ft_art_1st_Front_C)
+7 Compartment all 1st Rear				(Gresley_51ft_art_1st_Rear_C)
+8 Compartment all 3rd Front				(Gresley_51ft_art_3rd_Front_C)
+8 Compartment all 3rd Rear				(Gresley_51ft_art_3rd_Rear_C)
+4 Compartment Brake 3rd Front				(Gresley_51ft_art_BT_Front_C)
+4 Compartment Brake 3rd Rear				(Gresley_51ft_art_BT_Rear_C)
+7 Compartment Composite Lavatory			(Gresley_51ft_Art_CL_Front_C)
+7 Compartment Composite Lavatory			(Gresley_51ft_Art_CL_Rear_C)
+
+Gresley 51ft Suburban Coaches in Maroon
+
+7 Compartment all 2nd (ex 1st)			(Gresley_51ft_2nd_ex1st_Maroon)
+8 Compartment all 2nd (ex 3rd)			(Gresley_51ft_2nd_Maroon)
+4 Compartment Brake 2nd Front	(ex 3rd)		(Gresley_51ft_BS_Front_Maroon)
+4 Compartment Brake 2nd Rear	(ex 3rd)		(Gresley_51ft_BS_Rear_Maroon)
+7 Compartment Composite Corridor Lavatory		(Gresley_51ft_CL_Maroon)
+Full Brake							(Gresley_51ft_FB_Maroon)
+
+Gresley 51ft Suburban Articulated Twin Coaches in Maroon
+7 Compartment all 2nd Front (ex 1st)		(Gresley_51ft_art_ex1st_Front_M)
+7 Compartment all 2nd Rear (ex 1st)			(Gresley_51ft_art_ex1st_Rear_M)
+8 Compartment all 2nd Front (ex 3rd)		(Gresley_51ft_art_2nd_Front_Mar)
+8 Compartment all 2nd Rear (ex 3rd)			(Gresley_51ft_art_2nd_Rear_Mar)
+4 Compartment Brake 2nd Front (ex 3rd)		(Gresley_51ft_art_BS_Front_Mar)
+4 Compartment Brake 2nd Rear (ex 3rd)		(Gresley_51ft_art_BS_Rear_Mar)
+7 Compartment Composite Lavatory			(Gresley_51ft_Art_CL_Front_Mar)
+7 Compartment Composite Lavatory			(Gresley_51ft_Art_CL_Rear_Mar)
+
+Note:
+*Rear Versions of the Brake Thirds have working tail lamps.
+*The Articuled stock is interchangeable, as in any Front unit with any Rear unit
+(ie Gresley_51ft_art_1st_Front_* then Gresley_51ft_Art_CL_Rear_*)
+You must use a front and rear unit due to the middle bogie.
+----------------------------------------------------------------------
+
+These coaches are not 100% accurate. they are a representation of the real thing.
+The coaches in this pack are based off the Hornby OO scale coaches,
+as well as reference photo's on the internet.
+
+An especially big thank you must go to Ian Macmillan,
+who's help in doing the textures made this project a reality a lot faster.
+
+A big thank you to all in the MSTS community who's hard work and
+dedication provided me with the insparation to have a go at these coaches.
+ 
+All 3d models and textures are new.
+3d models by Justin Waite.
+Textures by Ian Macmillan And Justin Waite.
+
+
+
+----------------------------------------------------------------------
+EULA
+
+You may not upload these coaches to another website.
+You may not repaint these coaches without my permision.
+These coaches are not 100% accurate so don't complain about them.
+Any questions or comments please contact me at:
+
+j3801_2003@yahoo.com
+
+
+Thank you.
+
+Justin Waite

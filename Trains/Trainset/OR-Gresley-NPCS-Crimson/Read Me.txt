@@ -1,0 +1,52 @@
+Thank you for downlaoding this coach pack.
+
+These coaches can be found in your trainset folder.
+
+They all have Standard Chain couplers.
+
+This pack contains the following coaches/vans in BR Crimson:
+
+BR (exLNER) Non-Passenger Coaching Stock
+
+BR (exLNER) Post Office Sorting Van 60'................................exLNE_POS_Crimson
+BR (exLNER) Post Office Tender Van 60'.................................exLNE_POT_Crimson
+BR (exLNER) 4 wheel passenger Brake w/ Guards Lookout..................exLNE_BY_Lookout_Crimson
+BR (exLNER) 4 wheel passenger Brake w/o Guards Lookout.................exLNE_BY_Lookout_Crimson
+BR (exLNER) Bogie BCK CCT..............................................exLNE_Bogie_CCT
+BR (exLNER) XL 4 wheel LLCK CCT........................................exLNE_CCT(C)
+BR (exLNER) exGER 6 wheel XCK CCT......................................exLNE_CCT(D)
+
+
+----------------------------------------------------------------------
+
+These coaches are not 100% accurate. they are a representation of the real thing.
+The coaches in this pack are based off general arrangement diagrams in these books:
+Historic Carriage Drawings Book 1:LNER and Constituents
+Historic Carriage Drawings Book 3:Non-Passenger Coaching Stock
+
+As well as reference photo's found on the internet.
+
+Thank you's must go to Ian Macmillam who helped with checking the models out and did the Crimson livery, 
+as well as Michael Hendel who has done the beta testing for me.
+
+A big thank you to all in the MSTS community who's hard work and
+dedication provided me with the insparation to have a go at these coaches.
+ 
+All 3d models and textures are new.
+3d models by Justin Waite.
+Textures by Justin Waite and Ian Macmillan.
+
+----------------------------------------------------------------------
+EULA
+
+You may not upload these coaches to another website.
+You may not repaint these coaches without my permision.
+These coaches are not 100% accurate so don't complain about them.
+Any questions or comments please contact me at:
+
+j3801_2003@yahoo.com
+
+
+Thank you.
+
+Justin Waite

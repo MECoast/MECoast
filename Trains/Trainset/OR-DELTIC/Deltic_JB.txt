@@ -1,0 +1,18 @@
+English Electric/Napier Prototype Type 5 Co-Co Diesel Electric Locomotive "Deltic".
+---------------------------------------------------------------------------------------------
+
+The English Electric company, who had absorbed the engine maker Napier & Son into its vast empire, was (among many interests) a major builder of diesel and electric locomotives. EE saw the potential of Napier's Deltic engine for rail traction, and in 1955 built a demonstrator in its Dick Kerr works in Preston. Officially numbered DP1 (Diesel Prototype number 1), although this was never borne on the locomotive, it carried the word DELTIC in large white letters on its powder-blue sides. Plans to name the locomotive Enterprise never came to fruition, and it was to be known as Deltic to all.
+
+Long white stripes were painted on the sides, a visual device to make the locomotive's high sides appear more slender and speedier; three curved chevrons in the same creamy white on the noses gave it the impression of speed. The locomotive's styling was reminiscent of American locomotives, with high noses and small, somewhat swept-back cab windows set back behind them; to add to the American look of the locomotive to British eyes, a large headlight was fitted to each nose (though the actual 'lights' were never installed). Two eighteen-cylinder Deltic engines were fitted, derated from the 3,100 horsepower (2.3 MW) of the marine engines to 1,650 horsepower (1.2 MW) each, 3,300 horsepower (2.5 MW) total. This derating decreased the stress on the engines and thereby increasing the service life and time between overhauls.
+
+===========================================================================
+
+Original Model and textures by Mark Shipman.
+
+This installation uses cabview folder (GP38 - sorry), and sounds.
+Bin patch Ready though.
+
+Jon Bilton
+March 2007
+
+ 

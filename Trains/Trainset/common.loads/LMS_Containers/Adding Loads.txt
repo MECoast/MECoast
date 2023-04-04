@@ -1,0 +1,38 @@
+These loads will fit into most open wagons.
+
+To use these loads...
+
+Open the wagon folder and make a copy of the empty wagon .wag file.
+Rename the copy and the first line of the file by adding _loadname.
+
+eg emptywagon_stone.wag
+
+
+SIMISA@@@@@@@@@@JINX0D0t______
+
+Wagon ( emptywagon_stone
+	Id ( ? )
+	Type ( Freight )
+
+
+Add one of these lines after the Type line (Cut and Paste to avoid errors)
+
+FreightAnim ( ..\\common.Loads\\LMS_Containers\\LMS_Wood_2xA.S 0.0 3.0 0 )
+
+FreightAnim ( ..\\common.Loads\\LMS_Containers\\LMS_Wood_A118.S 0.0 3.0 0 )
+
+FreightAnim ( ..\\common.Loads\\LMS_Containers\\LMS_Wood_A134.S 0.0 3.0 0 )
+
+FreightAnim ( ..\\common.Loads\\LMS_Containers\\LMS_Wood_K1.S 0.0 3.0 0 )
+
+FreightAnim ( ..\\common.Loads\\LMS_Containers\\LMS_Wood_K3.S 0.0 3.0 0 )
+
+NOTE
+~~~~
+
+Sticking to this renaming comvention will avoid missing wagon errors if one of these loaded wagons is used in an activity.
+
+
+
+
+
