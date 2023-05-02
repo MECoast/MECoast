@@ -1,0 +1,43 @@
+Version 1.1
+
+The player sound files were faulty and a different crew has been used that requires Crew Alias ID 7759 rather than ID 7706.
+
+There is also a patch (File ID: 29388) if you don't want to redownload the whole pack. 
+
+
+
+
+These are all based on TwoManyDJ's unrebuilt Patriot. My thanks go to him for permission to do these.
+Also thanks go to Hans Nooyen for permission to include his Royal Scot cab.
+
+The three cylinder sound set (File ID: 2896) is required along with the Crew Aliases (File ID: 7759).
+
+Just run the supplied program to install.
+
+
+
+A good spread of allocations has been aimed at.
+
+Here are the numbers allocations and names.
+
+
+
+
+
+45510	5A Early	1A Late
+45515	8A				Caernarvon
+45518	8A				Bradshaw
+45519	10B Early	82E Late	Lady Godiva
+45520	9A				Llandudno
+45539	9A				E.C. Trench
+45544	10B Early	8A Late
+45546	1A Early	5A Late		Fleetwood
+
+Key : 
+
+1A Willesden
+5A Crewe North
+8A Liverpool (Edge Hill)
+9A Manchester (Longsight)
+10B Preston
+82E Bristol (Barrow Road) 
