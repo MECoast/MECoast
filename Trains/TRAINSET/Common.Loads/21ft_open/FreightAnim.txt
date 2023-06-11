@@ -1,0 +1,21 @@
+Add this line to your wagon.
+
+FreightAnim ( ../common.Loads/21ft_open/21ftAnthracite.s 0.0 3.0 0 )
+
+FreightAnim ( ../common.Loads/21ft_open/21ftAsh.s 0.0 3.0 0 )
+
+FreightAnim ( ../common.Loads/21ft_open/21ftBallast.s 0.0 3.0 0 )
+
+FreightAnim ( ../common.Loads/21ft_open/21ftCoal.s 0.0 3.0 0 )
+
+FreightAnim ( ../common.Loads/21ft_open/21ftLimestone.s 0.0 3.0 0 )
+
+FreightAnim ( ../common.Loads/21ft_open/21ftOre.s 0.0 3.0 0 )
+
+FreightAnim ( ../common.Loads/21ft_open/21ftSand.s 0.0 3.0 0 )
+
+FreightAnim ( ../common.Loads/21ft_open/21ftScrap.s 0.0 3.0 0 )
+
+FreightAnim ( ../common.Loads/21ft_open/21ftSpoil.s 0.0 3.0 0 )
+
+FreightAnim ( ../common.Loads/21ft_open/21ftStone.s 0.0 3.0 0 )
