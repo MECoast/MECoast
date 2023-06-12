@@ -1,0 +1,23 @@
+Spacers for creating AI to fill yards and MPDs.
+
+It's always nice to see yards full of wagons or MPDs rammed with steaming locos.
+The trouble is that when loose consists start building up then the steam starts to disappear from AI locos and even eventually the player loco.
+
+The way around this is to create "dummy" AI services using the invisible engine and wagons (interspersed with gaps caused by the invisible wagons if required) or for an MPD a string of AI locos separated with these invisible wagons.The idea is to set the start point at one end of the siding, the end point at the other and place a waiting point in between. This should work with a long siding or a long stretch of a yard. 
+
+The AI service should be verified with the time and Play feature in the AE. If the siding is short then sometimes the service goes straight through the waiting point.
+
+
+This is an extension of something that Ian MacMillan did some time ago to get trains to stop before the end of a platform. It is a collection of 5 invisible wagons of length 5, 10, 15, 30 and 60 feet. 
+
+Also included are two invisible AI diesels with no sound or visible effects. One has Chain and the other has automatic coupling.
+
+
+
+
+This pack is completely freeware, there is no copyright on it.
+
+
+
+
+
