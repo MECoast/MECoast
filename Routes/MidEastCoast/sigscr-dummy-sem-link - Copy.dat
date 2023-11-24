@@ -1,0 +1,29 @@
+///////////////////////////////////////////////////////////////////////////////
+//Dummy Semaphore Link Copy
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT BRDummy
+
+// Dummy
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR ||		// Block ahead not clear?
+		!route_set())							// Switch not set as per link?
+	{
+		state = SIGASP_STOP;
+	}
+	else
+	{
+		state = SIGASP_RESTRICTING;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+
+// End of File
