@@ -1,5 +1,5 @@
 
-25
+26
 
 Comment(Skegness 90ft)
 Turntable(
@@ -269,6 +269,17 @@ Comment(Stamford East 65ft)
 Turntable(
 WFile ( "w-006073+014983.w" )
 UiD ( 77 )
+XOffset ( 0 )
+YOffset ( 0 )
+ZOffset ( 13.5 )
+TrackShapeIndex ( 38793 )
+Animation ( "TRACKPIECE" )
+Diameter ( 19.8 )
+)
+Comment(Bardney 65ft)
+Turntable(
+WFile ( "w-006061+015007.w" )
+UiD ( 462 )
 XOffset ( 0 )
 YOffset ( 0 )
 ZOffset ( 13.5 )
